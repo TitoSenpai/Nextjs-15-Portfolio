@@ -3,18 +3,18 @@ import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { useEffect, useState } from "react";
 import CursorBlinker from "./cursor";
 
-const cursorVariants = {
-    blinking: {
-      opacity: [0, 0, 1, 1],
-      transition: {
-        duration: 1,
-        repeat: Infinity,
-        repeatDelay: 0,
-        ease: "linear",
-        times: [0, 0.5, 0.5, 1]
-      }
-    }
-  };
+// const cursorVariants = {
+//     blinking: {
+//       opacity: [0, 0, 1, 1],
+//       transition: {
+//         duration: 1,
+//         repeat: Infinity,
+//         repeatDelay: 0,
+//         ease: "linear",
+//         times: [0, 0.5, 0.5, 1]
+//       }
+//     }
+//   };
 
 export default function TypewriterText() {
   const strings = [
