@@ -55,19 +55,17 @@ export default function TypewriterText() {
 
             });
 
-            // Cleanup function to prevent animation conflicts
 
             return () => deleteAnimation.stop();
 
-        }, 1100); // adjust delay here
+        }, 1100);
 
 
       },
     });
 
-    // Cleanup function for the animation
     return () => controls.stop();
-  }, [charIndex, currentString]); // Include currentString in dependencies
+  }, [charIndex, currentString]);
 
 
   return <span><motion.span >{displayText}
