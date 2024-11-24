@@ -15,7 +15,7 @@ export default function Page() {
             <div className="lg:text-left">
               <p className="pb-4 text-base text-gray-500">Welcome to my digital space</p>
               <h1 className="text-4xl font-bold  tracking-tight sm:text-5xl md:text-6xl">
-                Hi, I'm <span className="text-red-500 text-50">TitoSenpai</span>,
+                Hi, I&apos;m <span className="text-red-500 text-50">TitoSenpai</span>,
                 <span className="block ">a <TypewriterText /></span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">

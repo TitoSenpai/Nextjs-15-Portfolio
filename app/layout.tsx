@@ -12,8 +12,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const router = useRouter();
-  const pathname = usePathname();
+
 
   return (
     <html lang="en" suppressHydrationWarning>

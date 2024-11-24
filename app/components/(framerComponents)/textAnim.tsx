@@ -35,21 +35,21 @@ export default function TypewriterText() {
   useEffect(() => {
     const controls = animate(charIndex, currentString.length, {
       type: "tween",
-      duration: 1, // Adjust typing speed here
-      ease: "linear", // Or other easing as desired
+      duration: 1,
+      ease: "linear",
       onComplete: () => {
-        // Delay before deleting
+     
         setTimeout(() => {
             const deleteAnimation = animate(charIndex, 0, {
                 type: 'tween',
                 duration: 1,
                 ease: 'linear',
                 onComplete: () => {
-                  // Delay before next string
+           
                   setTimeout(() => {
                     setCurrentIndex((prev) => (prev + 1) % strings.length);
-                    charIndex.set(0); // Important to reset charIndex
-                  }, 200); // Adjust delay here
+                    charIndex.set(0);
+                  }, 200); 
 
                 }
 
