@@ -1,4 +1,7 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a Basic [Next.js](https://nextjs.org) portfolio project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+![Screenshot 2024-11-24 155251](https://github.com/user-attachments/assets/023ac52e-1e8d-4ab2-8464-ed4e9a5f91c0)
+DarkMode
 
 ## Getting Started
 
